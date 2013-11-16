@@ -16,6 +16,7 @@ tile.bop.redRocks.redcobble.name=Pietrisco di Roccia Rossa
 tile.bop.redRocks.redbrick.name=Mattoni di Roccia Rossa
 
 tile.bop.ash.name=Blocco di Cenere
+tile.bop.flesh.name=Carne
 
 tile.bop.plants.deadgrass.name=Erba Secca
 tile.bop.plants.desertgrass.name=Erba Desertica
@@ -30,6 +31,8 @@ tile.bop.plants.cattailbottom.name=Tifa
 tile.bop.plants.reed.name=Canna
 tile.bop.plants.cactus.name=Piantina Grassa
 tile.bop.plants.witherwart.name=Verruca Wither
+tile.bop.plants.reed.name=Canne
+tile.bop.plants.root.name=Radice
 
 tile.bop.flowers.clover.name=Trifoglio
 tile.bop.flowers.swampflower.name=Fiore di Palude
@@ -48,6 +51,18 @@ tile.bop.flowers.sunflowerbottom.name=Girasole
 tile.bop.flowers.sunflowertop.name=Girasole
 tile.bop.flowers.dandelion.name=Dente di Leone Bianco
 
+tile.bop.flowers2.hibiscus.name=Ibisco Rosa
+tile.bop.flowers2.lilyofthevalley.name=Giglio della Valle
+tile.bop.flowers2.burningblossom.name=Fiore Ardente
+tile.bop.flowers2.lavender.name=Lavanda
+tile.bop.flowers2.goldenrod.name=Asteracea
+tile.bop.flowers2.bluebells.name=Campanule
+tile.bop.flowers2.minersdelight.name=Delizia del Minatore
+tile.bop.flowers2.icyiris.name=Iris Ghiacciato
+
+tile.bop.stoneFormations.stalagmite.name=Stalagmite
+tile.bop.stoneFormations.stalactite.name=Stalattite
+
 tile.bop.foliage.algae.name=Alga
 tile.bop.foliage.shortgrass.name=Erba Bassa
 tile.bop.foliage.mediumgrass.name=Erba Media
@@ -57,6 +72,11 @@ tile.bop.foliage.sprout.name=Germoglio
 tile.bop.foliage.highgrasstop.name=Erba Alta
 tile.bop.foliage.poisonivy.name=Edera Velenosa
 tile.bop.foliage.berrybush.name=Cespuglio di Bacche
+tile.bop.foliage.shrub.name=Cespuglio
+tile.bop.foliage.wheatgrass.name=Erba di Grano
+tile.bop.foliage.dampgrass.name=Erba Umida
+tile.bop.foliage.koru.name=Koru
+tile.bop.foliage.cloverpatch.name=Prato di Trifogli
 
 tile.bop.petals.bigflowerred.name=Fiore Rosso Gigante
 tile.bop.petals.bigfloweryellow.name=Fiore Giallo Gigante
@@ -64,7 +84,8 @@ tile.bop.petals.bigfloweryellow.name=Fiore Giallo Gigante
 tile.bop.mushrooms.toadstool.name=Fungo a Ombrello
 tile.bop.mushrooms.portobello.name=Champignon
 tile.bop.mushrooms.bluemilk.name=Lactarius Indigo
-tile.bop.mushrooms.glowshroom.name=Fungo Luminoso
+tile.bop.mushrooms.glowshroom.name=Brillantfungo
+tile.bop.mushrooms.flatmushroom.name=Fungo Piatto
 
 tile.bop.saplings.appleSapling.name=Arboscello di Melo
 tile.bop.saplings.yellowautumnSapling.name=Arboscello Giallo Autunnale
@@ -83,288 +104,351 @@ tile.bop.saplings.hellbarkSapling.name=Arboscello della Corteccia Infernale
 tile.bop.saplings.jacarandaSapling.name=Arboscello di Jacaranda
 tile.bop.saplings.persimmonSapling.name=Arboscello di Cachi
 
-tile.bop.colorizedSaplings.acaciaSapling.name=Arboscello d'Acacia
-tile.bop.colorizedSaplings.mangroveSapling.name=Arboscello di Mangrovia
-tile.bop.colorizedSaplings.palmSapling.name=Arboscello di Palma
-tile.bop.colorizedSaplings.redwoodSapling.name=Arboscello di Sequoia
-tile.bop.colorizedSaplings.willowSapling.name=Arboscello di Salice
-tile.bop.colorizedSaplings.pineSapling.name=Arboscello di Pino
+tile.bop.colorizedSaplings.acaciaSapling.name=Acacia Sapling
+tile.bop.colorizedSaplings.mangroveSapling.name=Mangrove Sapling
+tile.bop.colorizedSaplings.palmSapling.name=Palm Sapling
+tile.bop.colorizedSaplings.redwoodSapling.name=Redwood Sapling
+tile.bop.colorizedSaplings.willowSapling.name=Willow Sapling
+tile.bop.colorizedSaplings.pineSapling.name=Pine Sapling
+tile.bop.colorizedSaplings.sacredoakSapling.name=Sacred Oak Sapling
 
-tile.bop.willow.name=Salice
-tile.bop.ivy.name=Edera
-tile.bop.leavesFruit.name=Foglie di Melo
-tile.bop.leavesFruit2.name=Foglie di Cachi
+tile.bop.willow.name=Willow
+tile.bop.ivy.name=Ivy
+tile.bop.leavesFruit.name=Apple Leaves
+tile.bop.leavesFruit2.name=Persimmon Leaves
 tile.bop.bamboo.name=Bamboo
-tile.bop.mudBricksStairs.name=Scalini in Mattoni di Fango
-tile.bop.originGrass.name=Blocco di Erba della Valle dell'Origine
-tile.bop.longGrass.name=Blocco di Erba Copiosa
-tile.bop.treeMoss.name=Muschio Parassita
+tile.bop.mudBricksStairs.name=Mud Bricks Stairs
+tile.bop.originGrass.name=Origin Grass Block
+tile.bop.longGrass.name=Long Grass Block
+tile.bop.treeMoss.name=Tree Moss
 
-tile.bop.coral.kelpsingle.name=Alga Kelp
-tile.bop.coral.pinkcoral.name=Corallo Rosa
-tile.bop.coral.orangecoral.name=Corallo Arancione
-tile.bop.coral.bluecoral.name=Corallo Blu
-tile.bop.coral.glowcoral.name=Corallo Luminescente
+tile.bop.coral.kelpsingle.name=Kelp
+tile.bop.coral.pinkcoral.name=Pink Coral
+tile.bop.coral.orangecoral.name=Orange Coral
+tile.bop.coral.bluecoral.name=Blue Coral
+tile.bop.coral.glowcoral.name=Glowing Coral
 
-tile.bop.redCobbleStairs.name=Scalini in Pietrisco di Roccia Rossa
-tile.bop.redBricksStairs.name=Scalini in Mattoni di Roccia Rossa
+tile.bop.redCobbleStairs.name=Red Rock Cobblestone Stairs      
+tile.bop.redBricksStairs.name=Red Rock Bricks Stairs
 
-tile.bop.holyGrass.holygrass.name=Blocco di Erba Sacra
-tile.bop.holyGrass.smolderinggrass.name=Blocco di Erba Ardente
+tile.bop.holyGrass.holygrass.name=Purified Grass Block
+tile.bop.holyGrass.smolderinggrass.name=Smoldering Grass Block
 
-tile.bop.holyStone.holystone.name=Pietra del Cielo
-tile.bop.holyStone.holycobble.name=Pietrisco del Cielo
-tile.bop.holyStone.holybrick.name=Mattoni del Cielo
+tile.bop.holyStone.holystone.name=Skystone
+tile.bop.holyStone.holycobble.name=Skystone Cobblestone
+tile.bop.holyStone.holybrick.name=Skystone Bricks
+tile.bop.holyStone.holystonemossy.name=Mossy Skystone
 
-tile.bop.holyCobbleStairs.name=Scalini in Pietrisco del Cielo
-tile.bop.holyBricksStairs.name=Scalini in Mattoni del Cielo
+tile.bop.holyCobbleStairs.name=Skystone Cobblestone Stairs
+tile.bop.holyBricksStairs.name=Skystone Bricks Stairs
 
-tile.bop.promisedPortal.name=Portale della Terra Promessa
+tile.bop.promisedPortal.name=Promised Land Portal
 
-tile.bop.amethystOre.amethystore.name=Ametista Grezza
-tile.bop.amethystOre.amethystblock.name=Blocco di Ametista
-tile.bop.amethystOre.rubyore.name=Rubino Grezzo
-tile.bop.amethystOre.rubyblock.name=Blocco di Rubino
-tile.bop.amethystOre.peridotore.name=Peridoto Grezzo
-tile.bop.amethystOre.peridotblock.name=Blocco di Peridoto
-tile.bop.amethystOre.topazore.name=Topazio Grezzo
-tile.bop.amethystOre.topazblock.name=Blocco di Topazio
-tile.bop.amethystOre.tanzaniteore.name=Tanzanite Grezza
-tile.bop.amethystOre.tanzaniteblock.name=Blocco di Tanzanite
-tile.bop.amethystOre.apatiteore.name=Apatite Grezza
-tile.bop.amethystOre.apatiteblock.name=Blocco di Apatite
-tile.bop.amethystOre.sapphireore.name=Zaffiro Grezzo
-tile.bop.amethystOre.sapphireblock.name=Blocco di Zaffiro
+tile.bop.amethystOre.amethystore.name=Amethyst Ore
+tile.bop.amethystOre.amethystblock.name=Block of Amethyst
+tile.bop.amethystOre.rubyore.name=Ruby Ore
+tile.bop.amethystOre.rubyblock.name=Block of Ruby
+tile.bop.amethystOre.peridotore.name=Peridot Ore
+tile.bop.amethystOre.peridotblock.name=Block of Peridot
+tile.bop.amethystOre.topazore.name=Topaz Ore
+tile.bop.amethystOre.topazblock.name=Block of Topaz
+tile.bop.amethystOre.tanzaniteore.name=Tanzanite Ore
+tile.bop.amethystOre.tanzaniteblock.name=Block of Tanzanite
+tile.bop.amethystOre.malachiteore.name=Malachite Ore
+tile.bop.amethystOre.malachiteblock.name=Block of Malachite
+tile.bop.amethystOre.sapphireore.name=Sapphire Ore
+tile.bop.amethystOre.sapphireblock.name=Block of Sapphire
 
-tile.bop.moss.name=Muschio
+tile.bop.moss.name=Moss
 
-tile.bop.cloud.name=Blocco di Nuvola
+tile.bop.cloud.name=Cloud Block
 
-tile.bop.bones.bones_small.name=Segmento Piccolo d'Ossa
-tile.bop.bones.bones_medium.name=Segmento Medio d'Ossa
-tile.bop.bones.bones_large.name=Segmento Grande d'Ossa
+tile.bop.hive.honeycomb.name=Honeycomb Block
+tile.bop.hive.hive.name=Hive Block
+tile.bop.hive.honeycombempty.name=Empty Honeycomb Block
+tile.bop.hive.honeycombfilled.name=Filled Honeycomb Block
 
-tile.bop.glass.celestialLens.name=Lenti Celestiali
+tile.bop.honeyBlock.name=Honey Block
 
-tile.bop.glass.sacrificialfocus_empty.name=Centro Sacrificale
-tile.bop.glass.sacrificialfocus_active.name=Centro Sacrificale
-tile.bop.glass.sacrificialfocus_villager.name=Centro Sacrificale
+tile.bop.bones.bones_small.name=Small Bone Segment
+tile.bop.bones.bones_medium.name=Medium Bone Segment
+tile.bop.bones.bones_large.name=Large Bone Segment
 
-tile.bop.altar.altarframe.name=Struttura dell'Altare
+tile.bop.puddle.name=Puddle
 
-tile.bop.puddle.name=Pozzanghera
+tile.bop.grave.name=Gravestone
 
-tile.bop.grave.name=Lapide
+tile.bop.stoneDoubleSlab.redcobbleSlab.name=Red Rock Cobblestone Slab
+tile.bop.stoneDoubleSlab.redbrickSlab.name=Red Rock Bricks Slab
+tile.bop.stoneDoubleSlab.mudbrickSlab.name=Mud Bricks Slab
+tile.bop.stoneDoubleSlab.holycobbleSlab.name=Skystone Cobblestone Slab
+tile.bop.stoneDoubleSlab.holybrickSlab.name=Skystone Bricks Slab
 
-tile.bop.stoneDoubleSlab.redcobbleSlab.name=Lastra di Pietrisco di Roccia Rossa
-tile.bop.stoneDoubleSlab.redbrickSlab.name=Lastra di Mattoni di Roccia Rossa
-tile.bop.stoneDoubleSlab.mudbrickSlab.name=Lastra di Mattoni di Fango
-tile.bop.stoneDoubleSlab.holycobbleSlab.name=Lastra di Pietrisco del Cielo
-tile.bop.stoneDoubleSlab.holybrickSlab.name=Lastra di Mattoni del Cielo
+tile.bop.stoneSingleSlab.redcobbleSlab.name=Red Rock Cobblestone Slab
+tile.bop.stoneSingleSlab.redbrickSlab.name=Red Rock Bricks Slab
+tile.bop.stoneSingleSlab.mudbrickSlab.name=Mud Bricks Slab
+tile.bop.stoneSingleSlab.holycobbleSlab.name=Skystone Cobblestone Slab
+tile.bop.stoneSingleSlab.holybrickSlab.name=Skystone Bricks Slab
 
-tile.bop.stoneSingleSlab.redcobbleSlab.name=Lastra di Pietrisco di Roccia Rossa
-tile.bop.stoneSingleSlab.redbrickSlab.name=Lastra di Mattoni di Roccia Rossa
-tile.bop.stoneSingleSlab.mudbrickSlab.name=Lastra di Mattoni di Fango
-tile.bop.stoneSingleSlab.holycobbleSlab.name=Lastra di Pietrisco del Cielo
-tile.bop.stoneSingleSlab.holybrickSlab.name=Lastra di Mattoni del Cielo
+tile.bop.planks.acaciaPlank.name=Acacia Wood Planks
+tile.bop.planks.cherryPlank.name=Cherry Wood Planks
+tile.bop.planks.darkPlank.name=Dark Wood Planks
+tile.bop.planks.firPlank.name=Fir Wood Planks
+tile.bop.planks.holyPlank.name=Loftwood Wood Planks
+tile.bop.planks.magicPlank.name=Magic Wood Planks
+tile.bop.planks.mangrovePlank.name=Mangrove Wood Planks
+tile.bop.planks.palmPlank.name=Palm Wood Planks
+tile.bop.planks.redwoodPlank.name=Redwood Wood Planks
+tile.bop.planks.willowPlank.name=Willow Wood Planks
+tile.bop.planks.bambooThatching.name=Bamboo Thatching
+tile.bop.planks.pinePlank.name=Pine Wood Planks
+tile.bop.planks.hellBarkPlank.name=Hellbark Wood Planks
+tile.bop.planks.jacarandaPlank.name=Jacaranda Wood Planks
 
-tile.bop.planks.acaciaPlank.name=Assi in Legno di Acacia
-tile.bop.planks.cherryPlank.name=Assi in Legno di Ciliegio
-tile.bop.planks.darkPlank.name=Assi in Legno Oscuro
-tile.bop.planks.firPlank.name=Assi in Legno d'Abete
-tile.bop.planks.holyPlank.name=Assi in Legno Sacro
-tile.bop.planks.magicPlank.name=Assi in Legno Magico
-tile.bop.planks.mangrovePlank.name=Assi in Legno di Mangrovia
-tile.bop.planks.palmPlank.name=Assi in Legno di Palma
-tile.bop.planks.redwoodPlank.name=Assi in Legno di Sequoia
-tile.bop.planks.willowPlank.name=Assi in Legno di Salice
-tile.bop.planks.bambooThatching.name=Fascio di Bamboo
-tile.bop.planks.pinePlank.name=Assi in Legno di Pino
-tile.bop.planks.hellBarkPlank.name=Assi in Corteccia dell'inferno
-tile.bop.planks.jacarandaPlank.name=Assi in Legno di Jacaranda
+tile.bop.wood1.acaciaWood.name=Acacia Wood
+tile.bop.wood1.cherryWood.name=Cherry Wood
+tile.bop.wood1.darkWood.name=Dark Wood
+tile.bop.wood1.firWood.name=Fir Wood
 
-tile.bop.wood1.acaciaWood.name=Legno di Acacia
-tile.bop.wood1.cherryWood.name=Legno di Ciliegio
-tile.bop.wood1.darkWood.name=Legno Oscuro
-tile.bop.wood1.firWood.name=Legno d'Abete
+tile.bop.wood2.holyWood.name=Loftwood Wood
+tile.bop.wood2.magicWood.name=Magic Wood
+tile.bop.wood2.mangroveWood.name=Mangrove Wood
+tile.bop.wood2.palmWood.name=Palm Wood
 
-tile.bop.wood2.holyWood.name=Legno Sacro
-tile.bop.wood2.magicWood.name=Legno Magico
-tile.bop.wood2.mangroveWood.name=Legno di Mangrovia
-tile.bop.wood2.palmWood.name=Legno di Palma
+tile.bop.wood3.redwoodWood.name=Redwood Wood
+tile.bop.wood3.willowWood.name=Willow Wood
+tile.bop.wood3.deadWood.name=Dead Wood
+tile.bop.wood3.bigflowerstemWood.name=Giant Flower Stem
 
-tile.bop.wood3.redwoodWood.name=Legno di Sequoia
-tile.bop.wood3.willowWood.name=Legno di Salice
-tile.bop.wood3.deadWood.name=Legno Morto
-tile.bop.wood3.bigflowerstemWood.name=Stelo di Fiore Gigante
+tile.bop.wood4.pineWood.name=Pine Wood
+tile.bop.wood4.hellbarkWood.name=Hellbark Wood
+tile.bop.wood4.jacarandaWood.name=Jacaranda Wood
 
-tile.bop.wood4.pineWood.name=Legno di Pino
-tile.bop.wood4.hellbarkWood.name=Legno di Corteccia Infernale
-tile.bop.wood4.jacarandaWood.name=Legno di Jacaranda
+tile.bop.leaves1.yellowautumn.name=Yellow Autumn Leaves
+tile.bop.leaves1.bamboo.name=Bamboo Leaves
+tile.bop.leaves1.magic.name=Magic Leaves
+tile.bop.leaves1.dark.name=Dark Leaves
 
-tile.bop.leaves1.yellowautumn.name=Foglie Gialle Autunnali
-tile.bop.leaves1.bamboo.name=Foglie di Bamboo
-tile.bop.leaves1.magic.name=Foglie Magiche
-tile.bop.leaves1.dark.name=Foglie Oscure
-tile.bop.leaves1.dead.name=Foglie Morenti
-tile.bop.leaves1.fir.name=Foglie d'Abete
-tile.bop.leaves1.holy.name=Foglie Sacre
-tile.bop.leaves1.orangeautumn.name=Foglie Arancioni Autunnali
+tile.bop.leaves2.dead.name=Dying Leaves
+tile.bop.leaves2.fir.name=Fir Leaves
+tile.bop.leaves2.holy.name=Loftwood Leaves
+tile.bop.leaves2.orangeautumn.name=Orange Autumn Leaves
 
-tile.bop.leaves2.origin.name=Foglie della Valle dell'Origine
-tile.bop.leaves2.pinkcherry.name=Foglie di Ciliegio Rosa
-tile.bop.leaves2.maple.name=Foglie di Acero
-tile.bop.leaves2.whitecherry.name=Foglie di Ciliegio Bianco
-tile.bop.leaves2.hellbark.name=Foglie di Corteccia Infernale
-tile.bop.leaves2.jacaranda.name=Foglie di Jacaranda
+tile.bop.leaves3.origin.name=Origin Leaves
+tile.bop.leaves3.pinkcherry.name=Pink Cherry Leaves
+tile.bop.leaves3.maple.name=Maple Leaves
+tile.bop.leaves3.whitecherry.name=White Cherry Leaves
 
-tile.bop.woodenDoubleSlab1.acaciaSlab.name=Lastra in Legno di Acacia
-tile.bop.woodenDoubleSlab1.cherrySlab.name=Lastra in Legno di Ciliegio
-tile.bop.woodenDoubleSlab1.darkSlab.name=Lastra in Legno Oscuro
-tile.bop.woodenDoubleSlab1.firSlab.name=Lastra in Legno d'Abete
-tile.bop.woodenDoubleSlab1.holySlab.name=Lastra in Legno Sacro
-tile.bop.woodenDoubleSlab1.magicSlab.name=Lastra in Legno Magico
-tile.bop.woodenDoubleSlab1.mangroveSlab.name=Lastra in Legno di Mangrovia
-tile.bop.woodenDoubleSlab1.palmSlab.name=Lastra in Legno di Palma
-tile.bop.woodenDoubleSlab2.redwoodSlab.name=Lastra in Legno di Sequoia
-tile.bop.woodenDoubleSlab2.willowSlab.name=Lastra in Legno di Salice
-tile.bop.woodenDoubleSlab2.pineSlab.name=Lastra in Legno di Pino
-tile.bop.woodenDoubleSlab2.hell_barkSlab.name=Lastra in Corteccia dell'Inferno
-tile.bop.woodenDoubleSlab2.jacarandaSlab.name=Lastra in Legno di Jacaranda
+tile.bop.leaves4.hellbark.name=Hellbark Leaves
+tile.bop.leaves4.jacaranda.name=Jacaranda Leaves
 
-tile.bop.woodenSingleSlab1.acaciaSlab.name=Lastra in Legno di Acacia
-tile.bop.woodenSingleSlab1.cherrySlab.name=Lastra in Legno di Ciliegio
-tile.bop.woodenSingleSlab1.darkSlab.name=Lastra in Legno Oscuro
-tile.bop.woodenSingleSlab1.firSlab.name=Lastra in Legno d'Abete
-tile.bop.woodenSingleSlab1.holySlab.name=Lastra in Legno Sacro
-tile.bop.woodenSingleSlab1.magicSlab.name=Lastra in Legno Magico
-tile.bop.woodenSingleSlab1.mangroveSlab.name=Lastra in Legno di Mangrovia
-tile.bop.woodenSingleSlab1.palmSlab.name=Lastra in Legno di Palma
-tile.bop.woodenSingleSlab2.redwoodSlab.name=Lastra in Legno di Sequoia
-tile.bop.woodenSingleSlab2.willowSlab.name=Lastra in Legno di Salice
-tile.bop.woodenSingleSlab2.pineSlab.name=Lastra in Legno di Pino
-tile.bop.woodenSingleSlab2.hell_barkSlab.name=Lastra in Corteccia dell'Inferno
-tile.bop.woodenSingleSlab2.jacarandaSlab.name=Lastra in Legno di Jacaranda
+tile.bop.woodenDoubleSlab1.acaciaSlab.name=Acacia Wood Slab
+tile.bop.woodenDoubleSlab1.cherrySlab.name=Cherry Wood Slab
+tile.bop.woodenDoubleSlab1.darkSlab.name=Dark Wood Slab
+tile.bop.woodenDoubleSlab1.firSlab.name=Fir Wood Slab
+tile.bop.woodenDoubleSlab1.holySlab.name=Loftwood Wood Slab
+tile.bop.woodenDoubleSlab1.magicSlab.name=Magic Wood Slab
+tile.bop.woodenDoubleSlab1.mangroveSlab.name=Mangrove Wood Slab
+tile.bop.woodenDoubleSlab1.palmSlab.name=Palm Wood Slab
+tile.bop.woodenDoubleSlab2.redwoodSlab.name=Redwood Wood Slab
+tile.bop.woodenDoubleSlab2.willowSlab.name=Willow Wood Slab
+tile.bop.woodenDoubleSlab2.pineSlab.name=Pine Wood Slab
+tile.bop.woodenDoubleSlab2.hell_barkSlab.name=Hellbark Wood Slab
+tile.bop.woodenDoubleSlab2.jacarandaSlab.name=Jacaranda Wood Slab
 
-tile.bop.acaciaStairs.name=Scalini in Legno di Acacia
-tile.bop.cherryStairs.name=Scalini in Legno di Ciliegio
-tile.bop.darkStairs.name=Scalini in Legno Oscuro
-tile.bop.firStairs.name=Scalini in Legno d'Abete
-tile.bop.holyStairs.name=Scalini in Legno Sacro
-tile.bop.magicStairs.name=Scalini in Legno Magico
-tile.bop.mangroveStairs.name=Scalini in Legno di Mangrovia
-tile.bop.palmStairs.name=Scalini in Legno di Palma
-tile.bop.redwoodStairs.name=Scalini in Legno di Sequoia
-tile.bop.willowStairs.name=Scalini in Legno di Salice
-tile.bop.pineStairs.name=Scalini in Legno di Pino
-tile.bop.hellBarkStairs.name=Scalini in Corteccia dell'Inferno
-tile.bop.jacarandaStairs.name=Scalini in Legno di Jacaranda
+tile.bop.woodenSingleSlab1.acaciaSlab.name=Acacia Wood Slab
+tile.bop.woodenSingleSlab1.cherrySlab.name=Cherry Wood Slab
+tile.bop.woodenSingleSlab1.darkSlab.name=Dark Wood Slab
+tile.bop.woodenSingleSlab1.firSlab.name=Fir Wood Slab
+tile.bop.woodenSingleSlab1.holySlab.name=Loftwood Wood Slab
+tile.bop.woodenSingleSlab1.magicSlab.name=Magic Wood Slab
+tile.bop.woodenSingleSlab1.mangroveSlab.name=Mangrove Wood Slab
+tile.bop.woodenSingleSlab1.palmSlab.name=Palm Wood Slab
+tile.bop.woodenSingleSlab2.redwoodSlab.name=Redwood Wood Slab
+tile.bop.woodenSingleSlab2.willowSlab.name=Willow Wood Slab
+tile.bop.woodenSingleSlab2.pineSlab.name=Pine Wood Slab
+tile.bop.woodenSingleSlab2.hell_barkSlab.name=Hellbark Wood Slab
+tile.bop.woodenSingleSlab2.jacarandaSlab.name=Jacaranda Wood Slab
 
-tile.bop.leavesColorized.acacia.name=Foglie di Acacia
-tile.bop.leavesColorized.mangrove.name=Foglie di Mangrovia
-tile.bop.leavesColorized.palm.name=Foglie di Palma
-tile.bop.leavesColorized.redwood.name=Foglie di Sequoia
-tile.bop.leavesColorized.willow.name=Foglie di Salice
-tile.bop.leavesColorized.pine.name=Foglie di Pino
+tile.bop.acaciaStairs.name=Acacia Wood Stairs
+tile.bop.cherryStairs.name=Cherry Wood Stairs
+tile.bop.darkStairs.name=Dark Wood Stairs
+tile.bop.firStairs.name=Fir Wood Stairs
+tile.bop.holyStairs.name=Loftwood Wood Stairs
+tile.bop.magicStairs.name=Magic Wood Stairs
+tile.bop.mangroveStairs.name=Mangrove Wood Stairs
+tile.bop.palmStairs.name=Palm Wood Stairs
+tile.bop.redwoodStairs.name=Redwood Wood Stairs
+tile.bop.willowStairs.name=Willow Wood Stairs
+tile.bop.pineStairs.name=Pine Wood Stairs
+tile.bop.hellBarkStairs.name=Hellbark Wood Stairs
+tile.bop.jacarandaStairs.name=Jacaranda Wood Stairs
 
-item.bop.food.berries.name=Bacca
-item.bop.food.shroompowder.name=Polvere di Fungo
-item.bop.food.wildcarrots.name=Carote Selvagge
-item.bop.food.sunflowerseeds.name=Semi di Girasole
-item.bop.food.saladfruit.name=Macedonia
-item.bop.food.saladveggie.name=Insalata di Verdure
-item.bop.food.saladshroom.name=Insalata di Funghi
-item.bop.food.persimmon.name=Cachi
+tile.bop.leavesColorized1.acacia.name=Acacia Leaves
+tile.bop.leavesColorized1.mangrove.name=Mangrove Leaves
+tile.bop.leavesColorized1.palm.name=Palm Leaves
+tile.bop.leavesColorized1.redwood.name=Redwood Leaves
 
-item.bop.dartblower.name=Cerbottana
-item.bop.dart.dart.name=Dardo
-item.bop.dart.poisondart.name=Dardo Avvelenato
+tile.bop.leavesColorized2.willow.name=Willow Leaves
+tile.bop.leavesColorized2.pine.name=Pine Leaves
 
-item.bop.mudball.name=Palla di Fango
+item.bop.food.berries.name=Berry
+item.bop.food.shroompowder.name=Shroom Powder
+item.bop.food.wildcarrots.name=Wild Carrots
+item.bop.food.sunflowerseeds.name=Sunflower Seeds
+item.bop.food.saladfruit.name=Fruit Salad
+item.bop.food.saladveggie.name=Veggie Salad
+item.bop.food.saladshroom.name=Shroom Salad
+item.bop.food.persimmon.name=Persimmon
+item.bop.food.filledhoneycomb.name=Filled Honeycomb
+item.bop.food.ambrosia.name=Ambrosia
 
-item.bop.miscItems.mudbrick.name=Mattone di Fango
-item.bop.miscItems.ash.name=Cumulo di Cenere
-item.bop.miscItems.amethyst.name=Ametista
-item.bop.miscItems.poison.name=Veleno
-item.bop.miscItems.crystalshard.name=Scheggia di Cristallo Celestiale
-item.bop.miscItems.bluedye.name=Tintura Blu
-item.bop.miscItems.browndye.name=Tintura Marrone
-item.bop.miscItems.greendye.name=Tintura Verde
-item.bop.miscItems.whitedye.name=Tintura Bianca
-item.bop.miscItems.blackdye.name=Tintura Nera
-item.bop.miscItems.ruby.name=Rubino
-item.bop.miscItems.peridot.name=Peridoto
-item.bop.miscItems.topaz.name=Topazio
-item.bop.miscItems.tanzanite.name=Tanzanite
-item.bop.miscItems.apatite.name=Apatite
-item.bop.miscItems.sapphire.name=Zaffiro
-item.bop.miscItems.ghastlysoul.name=Anima Dannata
+item.bop.dartblower.name=Dart Blower
+item.bop.dart.dart.name=Dart
+item.bop.dart.poisondart.name=Poison Dart
 
-item.bop.pickaxeMud.name=Piccone di Fango
-item.bop.hatchetMud.name=Ascia di Fango
-item.bop.shovelMud.name=Pala di Fango
-item.bop.swordMud.name=Spada di Fango
-item.bop.hoeMud.name=Zappa di Fango
-item.bop.helmetMud.name=Elmo di Fango
-item.bop.chestplateMud.name=Corazza di Fango
-item.bop.leggingsMud.name=Gambali di Fango
-item.bop.bootsMud.name=Stivali di Fango
+item.bop.mudball.name=Mud Ball
 
-item.bop.pickaxeAmethyst.name=Piccone di Ametista
-item.bop.hatchetAmethyst.name=Ascia di Ametista
-item.bop.shovelAmethyst.name=Pala di Ametista
-item.bop.swordAmethyst.name=Spada di Ametista
-item.bop.hoeAmethyst.name=Zappa di Ametista
-item.bop.helmetAmethyst.name=Elmo di Ametista
-item.bop.chestplateAmethyst.name=Corazza di Ametista
-item.bop.leggingsAmethyst.name=Gambali di Ametista
-item.bop.bootsAmethyst.name=Stivali di Ametista
+item.bop.miscItems.mudbrick.name=Mud Brick
+item.bop.miscItems.ash.name=Pile of Ashes
+item.bop.miscItems.fleshchunk.name=Chunk of Flesh
+item.bop.miscItems.emptyhoneycomb.name=Empty Honeycomb
+item.bop.miscItems.crystalshard.name=Celestial Crystal Shard
+item.bop.miscItems.bluedye.name=Blue Dye
+item.bop.miscItems.browndye.name=Brown Dye
+item.bop.miscItems.greendye.name=Green Dye
+item.bop.miscItems.whitedye.name=White Dye
+item.bop.miscItems.blackdye.name=Black Dye
+item.bop.miscItems.ghastlysoul.name=Ghastly Soul
+item.bop.miscItems.pixiedust.name=Pixie Dust
 
-item.bop.scytheWood.name=Falce di Legno
-item.bop.scytheStone.name=Falce di Pietra
-item.bop.scytheIron.name=Falce di Ferro
-item.bop.scytheGold.name=Falce d'Oro
-item.bop.scytheDiamond.name=Falce di Diamante
-item.bop.scytheMud.name=Falce di Fango
-item.bop.scytheAmethyst.name=Falce di Ametista
+item.bop.jarEmpty.name=Empty Jar
+item.bop.jarFilled.jarhoney.name=Honey Jar
+item.bop.jarFilled.jarpoison.name=Poison Extract Jar
 
-item.bop.ancientStaff.ancientstaff.name=Verga Venerabile
-item.bop.ancientStaff.staffhandle.name=Manico della Verga Venerabile
-item.bop.ancientStaff.staffpole.name=Corpo della Verga Venerabile
-item.bop.ancientStaff.stafftopper.name=Sommit� della Verga Venerabile
-item.bop.ancientStaff.ancientstaffbroken.name=Verga Venerabile Esaurita
+item.bop.gems.amethyst.name=Amethyst
+item.bop.gems.ruby.name=Ruby
+item.bop.gems.peridot.name=Peridot
+item.bop.gems.topaz.name=Topaz
+item.bop.gems.tanzanite.name=Tanzanite
+item.bop.gems.malachite.name=Malachite
+item.bop.gems.sapphire.name=Sapphire
 
-item.bop.soulManipulator.soulmanipulator_empty.name=Manipolatore d'Anima
-item.bop.soulManipulator.soulmanipulator_ghastlysoul.name=Manipolatore d'Anima - Anima Dannata
-item.bop.soulManipulator.soulmanipulator_villager.name=Manipolatore d'Anima - Anima di Villico
+item.bop.pickaxeMud.name=Muddy Pickaxe
+item.bop.hatchetMud.name=Muddy Axe
+item.bop.shovelMud.name=Muddy Shovel
+item.bop.swordMud.name=Muddy Sword
+item.bop.hoeMud.name=Muddy Hoe
+item.bop.helmetMud.name=Muddy Helmet
+item.bop.chestplateMud.name=Muddy Chestplate
+item.bop.leggingsMud.name=Muddy Leggings
+item.bop.bootsMud.name=Muddy Boots
 
-item.bop.enderporter.name=Traslatore Ender
+item.bop.pickaxeAmethyst.name=Amethyst Pickaxe
+item.bop.hatchetAmethyst.name=Amethyst Axe
+item.bop.shovelAmethyst.name=Amethyst Shovel
+item.bop.swordAmethyst.name=Amethyst Sword
+item.bop.hoeAmethyst.name=Amethyst Hoe
+item.bop.helmetAmethyst.name=Amethyst Helmet
+item.bop.chestplateAmethyst.name=Amethyst Chestplate
+item.bop.leggingsAmethyst.name=Amethyst Leggings
+item.bop.bootsAmethyst.name=Amethyst Boots
 
-item.bop.bopDisc.name=Disco Musicale
-item.bop.bopDiscMud.name=Disco Musicale
+item.bop.scytheWood.name=Wooden Scythe
+item.bop.scytheStone.name=Stone Scythe
+item.bop.scytheIron.name=Iron Scythe
+item.bop.scytheGold.name=Gold Scythe
+item.bop.scytheDiamond.name=Diamond Scythe
+item.bop.scytheMud.name=Mud Scythe
+item.bop.scytheAmethyst.name=Amethyst Scythe
 
-item.bop.flowerBand.dullflowerband.name=Corona di Fiori Comune
-item.bop.flowerBand.plainflowerband.name=Corona di Fiori di Pianura
-item.bop.flowerBand.lushflowerband.name=Corona di Fiori Lussureggiante
-item.bop.flowerBand.exoticflowerband.name=Corona di Fiori Esotici
+item.bop.ancientStaff.ancientstaff.name=Ancient Staff
+item.bop.ancientStaff.staffhandle.name=Ancient Staff Handle
+item.bop.ancientStaff.staffpole.name=Ancient Staff Pole
+item.bop.ancientStaff.stafftopper.name=Ancient Staff Topper
+item.bop.ancientStaff.ancientstaffbroken.name=Depleted Ancient Staff
 
-item.bop.wadingBoots.name=Stivali da Guado
-item.bop.flippers.name=Pinne
+item.bop.enderporter.name=Enderporter
 
-item.bop.bopBucket.amethyst_empty.name=Secchio di Ametista
-item.bop.bopBucket.amethyst_spring_water.name=Secchio di Ametista con Acqua Primaverile
-item.bop.bopBucket.liquid_poison.name=Secchio di Liquido Velenoso
+item.bop.bopDisc.name=Music Disc
+item.bop.bopDiscMud.name=Music Disc
 
-tile.bop.liquidPoison.name=Liquido Velenoso
-tile.bop.springWater.name=Acqua Primaverile
+item.bop.flowerBand.dullflowerband.name=Dull Flower Band
+item.bop.flowerBand.plainflowerband.name=Plain Flower Band
+item.bop.flowerBand.lushflowerband.name=Lush Flower Band
+item.bop.flowerBand.exoticflowerband.name=Exotic Flower Band
 
-fluid.bop.liquidPoison=Liquido Velenoso
-fluid.bop.springWater=Acqua Primaverile
+item.bop.wadingBoots.name=Wading Boots
+item.bop.flippers.name=Flippers
 
-phrase.bop.promisedPortalOverworld=Un portale per la Terra Promessa � apparto nel cielo, sopra di te.
-phrase.bop.promisedPortalOther=Un portale per l'Overworld � apparto nel cielo, sopra di te.
+item.bop.bopBucket.amethyst_empty.name=Amethyst Bucket
+item.bop.bopBucket.amethyst_spring_water.name=Spring Water Amethyst Bucket
+item.bop.bopBucket.liquid_poison.name=Liquid Poison Bucket
+item.bop.bopBucket.honey.name=Honey Bucket
+
+tile.bop.liquidPoison.name=Liquid Poison
+tile.bop.springWater.name=Spring Water
+tile.bop.honey.name=Honey
+
+fluid.bop.liquidPoison=Liquid Poison
+fluid.bop.springWater=Spring Water
+fluid.bop.honey.name=Honey
+
+phrase.bop.promisedPortalOverworld=A gateway to the Promised Land has appeared in the sky above.
+phrase.bop.promisedPortalOther=A gateway to the Overworld has appeared in the sky above.
+
+phrase.bop.useBOPATGWorldtype=The Biomes O' Plenty world type or ATG world type must be used in order for the new biomes to generate. This message will only display once.
+phrase.bop.useBOPWorldtype=The Biomes O' Plenty world type must be used in order for the new biomes to generate. This message will only display once.
+phrase.bop.updateAvaliable=You are not using the latest recommended version of Biomes O' Plenty. The latest recommended version is: v%s for Minecraft %s
+
+entity.BiomesOPlenty.Glob.name=Glob
+entity.BiomesOPlenty.JungleSpider.name=Jungle Spider
+entity.BiomesOPlenty.Phantom.name=Phantom
+entity.BiomesOPlenty.Rosester.name=Rosester
+entity.BiomesOPlenty.Wasp.name=Wasp
+entity.BiomesOPlenty.Bird.name=Bird
+entity.BiomesOPlenty.Pixie.name=Pixie
+
+achievement.bop.achFlower=Flower Child
+achievement.bop.achFlower.desc=Become one with nature!
+
+achievement.bop.achBerry=Berry Picking
+achievement.bop.achBerry.desc=The simple things in life...
+achievement.bop.achMoss=A Rolling Stone
+achievement.bop.achMoss.desc=It gathers none of this.
+achievement.bop.achThorn=Rather Thorny
+achievement.bop.achThorn.desc=Deadlier than cacti!
+achievement.bop.achCoral=Nutritious
+achievement.bop.achCoral.desc=How about a big piece of steamed coral?
+
+achievement.bop.achFlowerBand=Flower Power
+achievement.bop.achFlowerBand.desc=Groovy, man.
+achievement.bop.achDartBlower=Full Auto
+achievement.bop.achDartBlower.desc=You'll shoot your eye out, kid!
+achievement.bop.achScythe=Plant Killer
+achievement.bop.achScythe.desc=The grim reaper's day job.
+achievement.bop.achEnderporter=Home Sweet Home
+achievement.bop.achEnderporter.desc=Use the magical powers of the Enderporter.
+
+achievement.bop.achHoney=Bittersweet
+achievement.bop.achHoney.desc=The land of blood and honey.
+achievement.bop.achWitherWart=Decay
+achievement.bop.achWitherWart.desc=A master of disguise.
+achievement.bop.achGrave=Gravedigger
+achievement.bop.achGrave.desc=The next Dampe.
+achievement.bop.achPhantom=Phantom Menace
+achievement.bop.achPhantom.desc=Stealer of souls...
+
+achievement.bop.achPromised=Movin' On Up!
+achievement.bop.achPromised.desc=Welcome to the Promised Land!
+achievement.bop.achCelestial=Blue Sky
+achievement.bop.achCelestial.desc=I am the one who...blocks...
+achievement.bop.achAmbrosia=Drink of the Gods
+achievement.bop.achAmbrosia.desc=Stay thirst, my friends.
+
+achievement.bop.achAllBOP=Achievements O' Plenty
+achievement.bop.achAllBOP.desc=You got all of the Biomes O' Plenty achievements!
 
 itemGroup.tabBiomesOPlenty=Biomes O' Plenty
 
 generator.BIOMESOP=Biomes O' Plenty
-
